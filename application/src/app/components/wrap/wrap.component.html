@@ -1,0 +1,41 @@
+<app-card
+  [iconClasses]="'fas fa-info-circle'"
+  [title]="'Top Of Page'"
+  [subTitle]="'Component'"
+>
+  <p body>Scroll down to the page</p>
+</app-card>
+
+<app-card
+  [iconClasses]="'fas fa-info-circle'"
+  [title]="'Star ratings'"
+  [subTitle]="'Component'"
+>
+  <app-star-ratings [highestRating]="5" [rating]="3.5" body></app-star-ratings>
+</app-card>
+
+<app-card
+  [iconClasses]="'fas fa-info-circle'"
+  [title]="'Progress Bar'"
+  [subTitle]="'Component'"
+>
+  <app-progress-bar body [value]="progressValue"></app-progress-bar>
+  <button footer (click)="progressValue = 75">Update</button>
+</app-card>
+
+<app-card
+  [iconClasses]="'fas fa-info-circle'"
+  [title]="'Accordion'"
+  [subTitle]="'Component'"
+>
+  <app-accordion body [items]="accordionItems"></app-accordion>
+</app-card>
+
+<app-card
+  [iconClasses]="'fas fa-info-circle'"
+  [title]="'Card'"
+  [subTitle]="'Component'"
+>
+  <p body>Body content</p>
+  <p footer>Footer content</p>
+</app-card>

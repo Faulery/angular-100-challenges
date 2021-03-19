@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AccordionComponent } from './accordion.component';
+import { StarRatingsComponent } from './star-ratings.component';
 
-describe('AccordionComponent', () => {
-  let component: AccordionComponent;
-  let fixture: ComponentFixture<AccordionComponent>;
+describe('StarRatingsComponent', () => {
+  let component: StarRatingsComponent;
+  let fixture: ComponentFixture<StarRatingsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [AccordionComponent],
+      declarations: [StarRatingsComponent],
     }).compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AccordionComponent);
+    fixture = TestBed.createComponent(StarRatingsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AccordionComponent } from './accordion.component';
+import { TopOfPageComponent } from './top-of-page.component';
 
-describe('AccordionComponent', () => {
-  let component: AccordionComponent;
-  let fixture: ComponentFixture<AccordionComponent>;
+describe('TopOfPageComponent', () => {
+  let component: TopOfPageComponent;
+  let fixture: ComponentFixture<TopOfPageComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [AccordionComponent],
+      declarations: [TopOfPageComponent],
     }).compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AccordionComponent);
+    fixture = TestBed.createComponent(TopOfPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
