@@ -1,1 +1,12 @@
-<app-card></app-card>
+<app-card
+  [title]="'Truncate'"
+  [subTitle]="'Pipes'"
+  [iconClasses]="'fas fa-info-circle'"
+>
+  <p body>
+    {{
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, laboriosam."
+        | truncate: { limit: 50, postSigns: "..." }
+    }}
+  </p>
+</app-card>

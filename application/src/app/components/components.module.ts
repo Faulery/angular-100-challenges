@@ -7,6 +7,7 @@ import { AccordionComponent } from './accordion/accordion.component';
 import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 import { StarRatingsComponent } from './star-ratings/star-ratings.component';
 import { WrapComponent } from './wrap/wrap.component';
+import { LoaderComponent } from './loader/loader.component';
 
 const routes: Routes = [{ path: '', component: WrapComponent }];
 
@@ -16,6 +17,7 @@ const routes: Routes = [{ path: '', component: WrapComponent }];
     AccordionComponent,
     StarRatingsComponent,
     WrapComponent,
+    LoaderComponent,
   ],
   imports: [CommonModule, SharedModule, RouterModule.forChild(routes)],
 })

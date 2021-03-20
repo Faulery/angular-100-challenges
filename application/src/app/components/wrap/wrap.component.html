@@ -1,5 +1,14 @@
 <app-card
   [iconClasses]="'fas fa-info-circle'"
+  [title]="'Loader'"
+  [subTitle]="'Component'"
+>
+  <app-loader body [isLoading]="false"></app-loader>
+  <p footer>Change input to true to see the loader</p>
+</app-card>
+
+<app-card
+  [iconClasses]="'fas fa-info-circle'"
   [title]="'Top Of Page'"
   [subTitle]="'Component'"
 >
